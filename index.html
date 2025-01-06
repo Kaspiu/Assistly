@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Assistly</title>
+  </head>
+  <body>
+    <div class="container">
+      <!---- Assistly Header ---->
+      <div class="chatHeader">
+        <div class="headerName">
+          <h1 class="name">Assistly</h1>
+          <p class="version">v1.0.1</p>
+        </div>
+        <img src="./images/logo_light.png" width="60px" height="60px" />
+      </div>
+
+      <!---- Assistly Body ---->
+      <div class="chatBody">
+        <div class="message botMessage">
+          <img src="./images/logo_dark.png" width="40px" height="40px" />
+          <div class="messageText">
+            Hey I'm Assistly <i class="fa-solid fa-hand-wave"></i> <br />
+            How I can help you today?
+          </div>
+        </div>
+        <div class="message userMessage"></div>
+      </div>
+
+      <!---- Assistly Footer ---->
+      <div class="chatFooter">
+        <form action="#" class="chatForm">
+          <textarea
+            placeholder="Message Assistly"
+            class="chatTextInputArea"
+            required
+          ></textarea>
+          <div class="buttonsArea">
+            <button type="button" class="attachmentButton">
+              <i class="fa-regular fa-paperclip-vertical"></i>
+            </button>
+            <button type="submit" id="sendButton" class="sendButton">
+              <i class="fa-solid fa-paper-plane-top"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
